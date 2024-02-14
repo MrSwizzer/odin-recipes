@@ -3,29 +3,96 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.title {
-    font-size: 28px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h2 {
-    font-size: 24px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-h3 {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.description {
-    color: darkblue;
-    font-style: italic;
-}
-
 li {
-    color: orangered;
+  color: orangered;
+}
+
+#homepage_title{
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+}
+
+#homepage_links{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.recipe_links {
+    text-align: center;
+    background-color: rgba(118, 232, 247, 0.349);
+    margin: 0, 5px;
+    padding: 10px;
+
+}
+
+#title {
+  width: 400px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#recipe_picture {
+  width: 420px;
+  height: auto;
+}
+
+#description_header {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.content_headers {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+#description {
+  width: 400px;
+  background-color: rgb(228, 250, 132);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#ingredients {
+  width: 400px;
+  background-color: aquamarine;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#steps {
+  width: 400px;
+  background-color: rgb(198, 149, 243);
+  padding: 10px;
+  margin-top: 5px;
+}
+
+#description_content {
+  color: darkblue;
+  font-style: italic;
+  text-align: center;
+}
+
+#home_link {
+  width: 400px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(241, 114, 114);
+  padding: 10px;
+  margin-top: 5px;
 }
